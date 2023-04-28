@@ -143,7 +143,7 @@ const defaultBrowseTemplate = `<!DOCTYPE html>
 <html>
         <body>
                 <ul>
-                {{- range .PageObj }}
+                {{- range .Items }}
                 <li>
                 {{- if .IsDir}}
                 <a href="{{html .Url}}">{{html .Name}}</a>
